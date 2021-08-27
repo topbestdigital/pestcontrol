@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BABA PEST CONTROL</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<style>
+  *{
+    text-transform: capitalize;
+  }
+  .active {
+    color: white !important;
+    background-color: #25c690 !important;
+    font-weight: 600;
+    transition: 0.9s;
+}
+</style>
+<body>
+  <header id="header">
+      <div class="container">
+          <div class="mycontainer">
+              <div class="logo">
+                  <a href="#"><img src="./img/logo.png" alt="logo"></a>
+              </div>
+              <div class="navbar">
+
+                  <div class="icon-bar" onclick="Show()">
+                      <i></i>
+                      <i></i>
+                      <i></i>
+                  </div>
+
+                  <ul id="nav-lists">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a  class="active" href="gallery.html">Gallery</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="contact.html">Contact</a></li>                        
+                      <div class="dropdown">
+                          <button class="dropbtn">LOGIN</button>
+                          <div class="dropdown-content">
+                              <a href="https://baba21.babapest.com/login.aspx">BABA PEST LOGIN</a>
+                              <a href="https://natraj21.babapest.com/login.aspx">NATRAJ LOGIN</a>  
+                          </div>
+                      </div>
+                  </ul>                    
+              </div>
+          </div>
+      </div>
+  </header>
+  <!--/header-->
+
+  <div class="slider">
+    <div id="about-slider">
+      <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators visible-xs">
+          <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-slider" data-slide-to="1"></li>
+          <li data-target="#carousel-slider" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/slider1.jpg" class="img-responsive" alt="">            
+          </div>
+          <div class="item">
+            <img src="img/slider2.jpg" class="img-responsive" alt="">
+          </div>
+          <div class="item">
+            <img src="img/slider3.jpg" class="img-responsive" alt="">
+          </div>
+          <div class="item">
+            <img src="img/slider4.jpg" class="img-responsive" alt="">
+          </div>
+          <div class="item">
+            <img src="img/slider5.jpg" class="img-responsive" alt="">
+          </div>
+        </div>
+
+        <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+
+        <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+      </div>
+      <!--/#carousel-slider-->
+    </div>
+    <!--/#about-slider-->
+  </div>
+  <!--/#slider-->
+
+ 
+  <div class="gallery">
+    <div class="text-center">
+        <div class="eleven">
+        <h2>Gallery</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-4">
+            <figure class="effect-marley">
+                <img src="img/1.jpg" alt="" class="img-responsive" />
+                <figcaption>
+                    <h4>sweet marley</h4>
+                    <p>Marley tried to convince her but she was not interested.</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="effect-marley">
+                <img src="img/2.jpg" alt="" class="img-responsive" />
+                <figcaption>
+                    <h4>sweet marley</h4>
+                    <p>Marley tried to convince her but she was not interested.</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="effect-marley">
+                <img src="img/3.jpg" alt="" class="img-responsive" />
+                <figcaption>
+                    <h4>sweet marley</h4>
+                    <p>Marley tried to convince her but she was not interested.</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-4">
+            <figure class="effect-marley">
+                <img src="img/4.jpg" alt="" class="img-responsive" />
+                <figcaption>
+                    <h4>sweet marley</h4>
+                    <p>Marley tried to convince her but she was not interested.</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="effect-marley">
+                <img src="img/5.jpg" alt="" class="img-responsive" />
+                <figcaption>
+                    <h4>sweet marley</h4>
+                    <p>Marley tried to convince her but she was not interested.</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="effect-marley">
+                <img src="img/6.jpg" alt="" class="img-responsive" />
+                <figcaption>
+                    <h4>sweet marley</h4>
+                    <p>Marley tried to convince her but she was not interested.</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+  <footer>
+    <div class="container">
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+       <div class="footerimg_div">
+        <img class="footer_img" src="./img/logo.png" alt="">
+       </div>
+        <div class="contact-info">
+          <ul class="contact-info_ul">
+            <li><i class="fa fa-home fa"></i>Office no.214,Central Facilities Bldg, APMC Fruit Market, Sector-19, Vashi Navi Mumbai-400705</li>
+            <br>
+            <li><i class="fa fa-phone fa"></i> 022-27832015/16 /  9322818454 </li>
+            <br>
+            <li><i class="fa fa-envelope fa"></i> babapest@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="text-center">
+          <div class="footerimg_div">
+          <h4>Photo Gallery</h4>
+        </div>
+          <ul class="sidebar-gallery" >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <div class="">
+          <div class="footerimg_div">
+          <h4>Newsletter Registration</h4>
+        </div>
+          <p>Subscribe today to receive the latest Day news via email.</p>
+          <div class="btn-gamp">
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
+          </div>
+          <div class="btn-gamp">
+            <a type="submit" class="btn btn-default">Subscribe</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="sub-footer">
+    <div class="container">
+      <div class="social-icon">
+        <div class="col-md-4">
+          <ul class="social-network">
+            <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-md-offset-4">
+        <div class="copyright">
+          Copyright © 2021. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    wow = new WOW({}).init();
+
+$(function() {
+    $('li.links > ul').each(function(i) {
+        var parentLi = $(this).parent('li');
+        parentLi.addClass('folder');
+        var subUl = $(this).remove();
+        parentLi.wrapInner('<a/>').find('a').click(function() {
+            subUl.toggle();
+        });
+        parentLi.append(subUl);
+    });
+    $('ul ul').hide();
+});
+  </script>
+</body>
+
+</html>
